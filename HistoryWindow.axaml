@@ -1,0 +1,23 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Qc_App.HistoryWindow"
+        Title="QC History" width="7010" Height="400">
+	<StackPanel Margin="10">
+		<TextBlock Text="QC History" FontSize="18" FontWeight="Bold" Margin="0,0,0,10"/>
+		
+		<StackPanel>
+			<TextBox x:Name="SearchInput" Width="200" Watermark="Search Barcode..." Marign="0,0,10,0"  />
+			<Button x:Name="SearchButton" Content="Search" Width="100"/>
+			<Button x:Name="ExportButton" Content="Export to CSV" Width="150" Margin="10,0,0,0"/>
+		</StackPanel>
+
+		<DataGrid x:Name="HistoryGrid" AutoGenerateColumns="True" Height="250"/>
+		
+		
+	</StackPanel>
+ 
+        
+</Window>

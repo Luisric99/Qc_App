@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Qc_App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af0173b84bb09693c86c37fe11536f5d3a4cd27b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Qc_App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Qc_App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

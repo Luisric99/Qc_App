@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/luisricardo/Qc_App/Qc_App.csproj": {}
+    "C:\\Projects\\Qc_App\\Qc_App.csproj": {}
   },
   "projects": {
-    "/Users/luisricardo/Qc_App/Qc_App.csproj": {
+    "C:\\Projects\\Qc_App\\Qc_App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/luisricardo/Qc_App/Qc_App.csproj",
+        "projectUniqueName": "C:\\Projects\\Qc_App\\Qc_App.csproj",
         "projectName": "Qc_App",
-        "projectPath": "/Users/luisricardo/Qc_App/Qc_App.csproj",
-        "packagesPath": "/Users/luisricardo/.nuget/packages/",
-        "outputPath": "/Users/luisricardo/Qc_App/obj/",
+        "projectPath": "C:\\Projects\\Qc_App\\Qc_App.csproj",
+        "packagesPath": "C:\\Users\\LuRiJBC.DOMAIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Qc_App\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/luisricardo/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\LuRiJBC.DOMAIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -85,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
