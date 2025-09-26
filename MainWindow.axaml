@@ -1,0 +1,36 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="Qc_App.MainWindow"
+        Width="400" Height="300"
+        Title="QC Inspection">
+
+    <StackPanel Margin="20" Spacing="10">
+
+        <!-- Scan input -->
+        <TextBlock Text="Scan Item:"/>
+        <TextBox x:Name="ScanInput"/>
+
+        <!-- PASS / FAIL buttons -->
+        <StackPanel Orientation="Horizontal" Spacing="10">
+            <Button x:Name="PassButton" Content="PASS" Width="80"/>
+            <Button x:Name="FailButton" Content="FAIL" Width="80"/>
+        </StackPanel>
+
+        <!-- Fail reason -->
+        <StackPanel Orientation="Horizontal" Margin="0,10,0,0" Spacing="10">
+            <TextBlock Text="Fail Reason" VerticalAlignment="Center"/>
+            <ComboBox x:Name="FailReasonDropdown" Width="180">
+                <ComboBoxItem Content="Dents"/>
+                <ComboBoxItem Content="Scratches"/>
+                <ComboBoxItem Content="Wrong Color/Stain"/>
+                <ComboBoxItem Content="Missing Item"/>
+                <ComboBoxItem Content="Other"/>
+            </ComboBox>
+            <TextBox x:Name="OtherReasonInput" Width="200" Watermark="If other, type here..." />
+        </StackPanel>
+
+        <!-- Status label -->
+        <TextBlock x:Name="StatusLabel" Foreground="Green"/>
+
+    </StackPanel>
+</Window>
